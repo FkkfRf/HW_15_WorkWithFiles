@@ -1,0 +1,18 @@
+# типы файлов, которые будут проигнорированы, при отправке на Git
+# from https://github.com/selenide/selenide/blob/master/.gitignore
+
+build
+!.idea
+.idea/*
+!/.idea/icon.svg
+out
+*.ipr
+*.iws
+*.iml
+.gradle
+.project
+.classpath
+chromedriver.log
+.settings
+integration/ScreenshotTest/canTakeScreenshotOfElement/
+classes
