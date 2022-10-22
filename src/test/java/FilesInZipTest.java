@@ -81,6 +81,8 @@ public class FilesInZipTest {
                 }
             }
             zipFile.close();
+        } else {
+            System.out.println("Файл " + fileType + " в архиве отсутствует");
         }
     }
 
